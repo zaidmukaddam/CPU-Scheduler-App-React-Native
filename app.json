@@ -28,6 +28,7 @@
     "android": {
       "package": "com.zaid.cpuschedulingapp",
       "versionCode": 2
-    }
+    },
+    "githubUrl": "https://github.com/zaidmukaddam/CPU-Scheduler-App-React-Native"
   }
 }
