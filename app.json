@@ -2,7 +2,7 @@
   "expo": {
     "name": "cpuSchedulingApp",
     "slug": "CPU-Scheduling-App-Operating-System",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/favicon_main.png",
     "splash": {
@@ -19,7 +19,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.zaid.cpuschedulingapp",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.1.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -27,7 +27,7 @@
     "description": "React Native Application to visualize the CPU Scheduling with different Processes and Animations.",
     "android": {
       "package": "com.zaid.cpuschedulingapp",
-      "versionCode": 1
+      "versionCode": 2
     }
   }
 }

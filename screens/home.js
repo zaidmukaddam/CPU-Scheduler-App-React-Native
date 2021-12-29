@@ -24,7 +24,7 @@ export default function App({ navigation }) {
     { id: "7", name: "Priority Scheduling(NP)" },
   ];
   return (
-    <ScrollView style={{ backgroundColor: "white" }}>
+    <ScrollView>
       <SafeAreaView
         style={{
           display: "flex",
@@ -32,7 +32,6 @@ export default function App({ navigation }) {
           alignItems: "center",
         }}
       >
-        {/* <Text style={{ fontSize: 40, fontWeight: "bold" }}>CPU Scheduling</Text> */}
         <View style={styles.container}>
           <TouchableHighlight
             style={styles.algoBox}
@@ -44,8 +43,8 @@ export default function App({ navigation }) {
             <View
               style={[styles.algoBox, { backgroundColor: "rgb(5, 116, 95)" }]}
             >
-              <LinearGradient
-                colors={["rgba(59,223,210,0.8)", "transparent"]}
+              <LinearGradient right
+                colors={["#11998e", "#38ef7d"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -67,8 +66,8 @@ export default function App({ navigation }) {
             <View
               style={[styles.algoBox, { backgroundColor: "rgb(25,84,123)" }]}
             >
-              <LinearGradient
-                colors={["rgba(255, 170, 34,0.8)", "transparent"]}
+              <LinearGradient right
+                colors={["#36d1dc", "#5b86e5"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -90,8 +89,8 @@ export default function App({ navigation }) {
             <View
               style={[styles.algoBox, { backgroundColor: "rgb(1, 95, 223)" }]}
             >
-              <LinearGradient
-                colors={["rgba(30, 210, 252,0.8)", "transparent"]}
+              <LinearGradient right
+                colors={["#000046", "#1cb5e0"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -113,8 +112,8 @@ export default function App({ navigation }) {
             <View
               style={[styles.algoBox, { backgroundColor: "rgb(255, 170, 34)" }]}
             >
-              <LinearGradient
-                colors={["rgba(182, 10, 250, 0.95)", "transparent"]}
+              <LinearGradient left
+                colors={["#d66d75", "#e29587"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -143,7 +142,7 @@ export default function App({ navigation }) {
               ]}
             >
               <LinearGradient
-                colors={["rgba(59, 31, 165,0.8)", "transparent"]}
+                colors={["#6190e8", "#a7bfe8"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -166,7 +165,7 @@ export default function App({ navigation }) {
               style={[styles.algoBox, { backgroundColor: "rgb(255, 170, 34)" }]}
             >
               <LinearGradient
-                colors={["rgba(121, 74, 0,0.8)", "transparent"]}
+                colors={["#ff7e5f", "#feb47b"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -189,11 +188,11 @@ export default function App({ navigation }) {
             <View
               style={[
                 styles.algoBox_P,
-                { backgroundColor: "rgb(250, 15, 15)" },
+                { backgroundColor: "#0099f7"},
               ]}
             >
               <LinearGradient
-                colors={["rgba(238, 234, 27,0.8)", "transparent"]}
+                colors={["#f11712","#0099f7"]}
                 style={styles.algoBgColor}
               />
               <Image
@@ -225,11 +224,11 @@ export default function App({ navigation }) {
             <View
               style={[
                 styles.algoBox_P,
-                { backgroundColor: "rgb(250, 15, 15)" },
+                { backgroundColor: "#0099f7"},
               ]}
             >
               <LinearGradient
-                colors={["rgba(238, 234, 27,0.8)", "transparent"]}
+                colors={["rgba(238, 234, 27,0.8)", "#0099f7"]}
                 style={styles.algoBgColor}
               />
               <Image

@@ -194,7 +194,7 @@ export default class History extends React.Component {
                 alignItems: "center",
                 justifyContent: "center",
                 width: "100%",
-                borderRadius: 4,
+                borderRadius: 10,
                 overflow: "hidden",
               }}
             >
